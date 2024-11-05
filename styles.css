@@ -1,0 +1,227 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral do corpo */
+body {
+    font-family: 'Georgia', 'Times New Roman', 'Arial', sans-serif;
+    background-color: #f5f5dc;
+    color: #000;
+}
+
+/* Estilo do header */
+header {
+    background-color: #93bf85;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    text-align: center; /* Centraliza o conteúdo do nav */
+}
+
+nav ul {
+    display: inline-block; /* Faz a lista ser tratada como um bloco para centralização */
+    padding: 0; /* Remove o padding padrão */
+}
+
+nav ul li {
+    display: inline; /* Mantém os itens da lista em linha */
+    margin: 0 15px; /* Margem entre os itens */
+}
+
+nav ul li a {
+    color: #000; /* Cor do texto em preto */
+    text-decoration: none; /* Remove o sublinhado */
+    padding: 5px 10px; /* Espaçamento interno para melhorar a área clicável */
+}
+
+/* Estilo do slider */
+.slider {
+    display: flex;
+    overflow: hidden;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilo das dicas e produtos */
+.dicas {
+    text-align: center; /* Centraliza o título */
+    padding: 20px; /* Espaçamento interno da seção */
+}
+
+.card-container {
+    display: flex; /* Usa flexbox para dispor os cards em linha */
+    justify-content: center; /* Centraliza os cards */
+    gap: 20px; /* Espaçamento entre os cards */
+    margin-top: 20px; /* Margem superior para separar do título */
+}
+
+.card {
+    background-color: #f3f3de; /* Cor de fundo do card */
+    border: 1px solid #95c99c; /* Borda dos cards */
+    border-radius: 8px; /* Cantos arredondados */
+    padding: 20px; /* Espaçamento interno do card */
+    width: 30%; /* Largura dos cards (ajuste conforme necessário) */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave para os cards */
+    text-align: center; /* Centraliza o texto dentro dos cards */
+}
+
+.card h3 {
+    margin-bottom: 10px; /* Espaçamento abaixo do título do card */
+}
+
+.card p {
+    font-size: 0.9em; /* Tamanho da fonte do parágrafo */
+}
+
+/* Estilo da seção de produtos */
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #95c99c;
+    border-radius: 8px;
+    padding: 20px;
+    width: calc(33.33% - 40px);
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card h3 {
+    margin-top: 10px;
+}
+
+.card p {
+    font-size: 0.9em;
+}
+
+/* Estilo do botão */
+button {
+    background-color: #95c99c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #88b09a;
+}
+
+/* Estilo do rodapé */
+footer {
+    text-align: center; /* Centraliza o texto do rodapé */
+    padding: 10px; /* Espaçamento interno do rodapé */
+    background-color: #95c99c; /* Cor de fundo do rodapé */
+    color: #000; /* Cor do texto do rodapé (preto) */
+    font-size: 0.8em; /* Tamanho da fonte do rodapé */
+}
+
+/* Estilo do card informativo */
+.info-card {
+    background-color: #f3f3de; /* Cor de fundo do card */
+    border: 1px solid #95c99c; /* Borda do card */
+    border-radius: 8px; /* Cantos arredondados */
+    padding: 20px; /* Espaçamento interno do card */
+    margin: 20px auto; /* Centraliza o card com margem */
+    max-width: 400px; /* Largura máxima do card */
+    text-align: center; /* Centraliza o texto dentro do card */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave para o card */
+}
+
+.info-card h3 {
+    margin-bottom: 15px; /* Espaçamento abaixo do título */
+}
+
+.info-card p {
+    margin: 5px 0; /* Margem vertical entre as informações */
+}
+
+.info-card a {
+    color: #95c99c; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+.info-card a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estilo da seção Sobre Nós */
+.sobre {
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+}
+
+.sobre p {
+    font-weight: normal; /* Garante que o texto não esteja em negrito */
+    font-size: 0.9em; /* Diminui o tamanho da fonte */
+}
+
+/* Estilo do formulário */
+.formulario {
+    display: flex; /* Usa flexbox para centralizar o card */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: calc(100vh - 200px); /* Ajusta a altura para centralizar verticalmente */
+}
+
+/* Estilo das tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #93bf85;
+    color: white;
+}
+
+.total {
+    text-align: right;
+    font-size: 1.2em;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}

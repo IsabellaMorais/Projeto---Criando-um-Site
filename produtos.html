@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naturally Skincare</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo">Naturally Skincare Store</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="carrinho.html">Carrinho</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="contato.html">Contato</a></li> 
+            </ul>
+        </nav>
+    </header>
+
+    <section class="produtos">
+        
+        <div class="card">
+            <img src="imagens/cleasingoil.png" alt="Cleansing Oil">
+            <h3>Cleansing Oil</h3>
+            <p>É um dermocosmético produzido para realizar uma limpeza profunda da pele,
+                 sem agredir e nem retirar a oleosidade natural.</p>
+                 <br>
+            <p>Preço: R$ 90,00</p> <br>
+            <button onclick="adicionarAoCarrinho('Cleansing Oil', 29.90)">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="card">
+            <br><br> <br><img src="imagens/tonicofacial.png" alt="Tônico Facial"> <br><br>
+            <h3>Tônico Facial</h3>
+            <p>Regula o PH da pele auxiliando na tonificação, hidratação e 
+                desobstrução dos poros, deixando uma pele mais refrescante e limpa.</p> <br> 
+            <p>Preço: R$ 96,00</p> <br> 
+            <button onclick="adicionarAoCarrinho('Tônico Facial', 39.90)">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="card">
+           <br><br><br> <img src="imagens/CremeHidratanteFacial.png" alt="Creme Hidratante Facial">
+           <br><br> <h3>Creme Hidratante Facial</h3> 
+            <p>Ajuda a preservar a oleosidade natural da pele,
+                 e proporcionando uma hidratação profunda, agradável
+                  e natural.</p> <br>
+            <p>Preço: R$ 138,00</p> <br>
+            <button onclick="adicionarAoCarrinho('Creme Hidratante Facial', 49.90)">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="card">
+            <br><br><br><img src="imagens/SérumBooster.png" alt="Sérum Booster">
+           <br> <h3>Sérum Booster</h3>
+            <p>age na uniformização da pele,
+                deixando também manchas menos visíveis e a pele bem hidratada.</p> <br>
+            <p>Preço: R$ 129,60</p> <br>
+            <button onclick="adicionarAoCarrinho('Sérum Booster', 59.90)">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="card">
+           <img src="imagens/MáscaraFacialStickVitamina.png" alt="Máscara Facial Stick Vitamina C Ye:pre">
+            <h3>Máscara Facial Stick Vitamina C Ye:pre</h3>
+            <p>Máscara facial de argila em bastão formulada com vitamina 
+                C que cuida dos poros, elimina cravos e células mortas, 
+                proporcionando frescor à pele..</p>
+            <p>Preço: R$ 109,00</p> <br>
+            <button onclick="adicionarAoCarrinho('Máscara Facial Stick Vitamina C Ye:pre', 69.90)">Adicionar ao Carrinho</button>
+        </div>
+        
+        <div class="card">
+            <br><br><br><img src="imagens/EspumadeLimpeza.png" alt=" Espuma de Limpeza">
+            <h3>Espuma de Limpeza</h3>
+            <p>Realiza uma limpeza profunda, mas suave,
+                 sem deixar aquela sensação desagradável de ressecamento. </p><br>
+            <p>Preço: R$ 78,00</p><br>
+            <button onclick="adicionarAoCarrinho('Espuma de Limpeza', 79.90)">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="card">
+            <img src="imagens/KitHidrataçãoBycos.png" alt="Kit Hidratação Bycos">
+            <h3>Kit Hidratação Bycos</h3>
+            <p>KIT fabuloso que vai deixar a sua pele profundamente Hidratada, 
+                incrivelmente saudável e cheia de vitalidade. 
+                Três Poderosos aliados para sua pele. Reunimos três produtos poderosos para um 
+                tratamento completo e eficaz.</p><br>
+            <p>Preço: R$ 240,00</p><br>
+            <button onclick="adicionarAoCarrinho('Kit Hidratação Bycos', 89.90)">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="card">
+            <img src="imagens/KitSkincareCompleto.png" alt="Kit Skincare Completo">
+            <h3>Kit Skincare Completo</h3>
+            <p>O nosso Kit é a chave para uma pele linda, saudável, que vai arrancar elogios de todo mundo. 
+                Reunimos 5 Produtos Incríveis, que juntos vão cuidar
+                 de todas as camadas da sua pele. Transformando ele por completo. </p><br>
+            <p>Preço: R$ 390,00</p><br>
+            <button onclick="adicionarAoCarrinho('Kit Skincare Completo', 99.90)">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="card">
+            <img src="imagens/BRINGGREENFreshMaskCaixa10unidades.png" alt="BRING GREEN 90% Fresh Mask I Caixa 10 unidades">
+            <h3>BRING GREEN 90% Fresh Mask | Caixa 10 unidades</h3>
+            <p>Hidratação refrescante do aloe vera de Jeju, com
+                efeito calmante e hidratante.</p><br>
+            <p>Preço: R$ 150,00</p><br>
+            <button onclick="adicionarAoCarrinho('BRING GREEN 90% Fresh Mask | Caixa 10 unidades', 109.90)">Adicionar ao Carrinho</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Naturally Skincare Store</p>
+        <p>Email: naturallyskincarestore@gmail.com</p>
+        <div class="redes-sociais">
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+
+    <script>
+        let carrinho = [];
+
+        function adicionarAoCarrinho(nome, preco) {
+            const produto = {
+                nome: nome,
+                preco: preco,
+                quantidade: 1
+            };
+
+            const index = carrinho.findIndex(item => item.nome === nome);
+            if (index > -1) {
+                carrinho[index].quantidade++;
+            } else {
+                carrinho.push(produto);
+            }
+
+            alert(`${nome} foi adicionado ao carrinho!`);
+            console.log(carrinho);
+        }
+    </script>
+</body>
+</html>
+

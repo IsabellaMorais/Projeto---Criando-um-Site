@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naturally Skincare</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <style>
+        /* Estilos adicionais */
+        h3 {
+            font-weight: bold; /* Deixa o texto em negrito */
+        }
+
+        p {
+            font-weight: normal; /* Remove o negrito do texto */
+        }
+
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 16px;
+            margin: 16px 0;
+            background-color: #fff;
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: space-around;
+            margin: 16px 0;
+        }
+
+        .video-card {
+            width: 45%;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            background-color: #fff;
+        }
+
+        iframe {
+            width: 100%;
+            height: 250px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Naturally Skincare Store</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="carrinho.html">Carrinho</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="contato.html">Contato</a></li> 
+            </ul>
+        </nav>
+    </header>
+
+    <section class="slider">
+        <img src="imagens/Banner 1.png" alt="Imagem 1">
+    </section>
+
+    <section class="dicas">
+        <h2>Algumas diquinhas</h2>
+        <div class="card-container"> 
+            <div class="card">
+                <h3>Hidrate sua pele diariamente</h3>
+                <p>Uma boa hidratação é a chave para uma pele saudável. <br> Por isso, beba bastante água e passe cremes específicos para o seu tipo de pele. <br> Dê uma olhada na nossa página de produtos e encontre o ideal para você!</p>
+            </div>
+            <div class="card">
+                <h3>Use protetor solar todos os dias</h3>
+                <p>Usar protetor solar todos os dias ajuda a prevenir o envelhecimento precoce da pele, previne manchas e evita que as pequenas manchas que já temos escureçam ainda mais!</p>
+            </div>
+            <div class="card">
+                <h3>Faça limpezas regulares na pele</h3>
+                <p>Fazer limpezas diárias na pele ajuda a garantir que os poros não fiquem obstruídos por poluição, maquiagem, entre outros. <br> Essa limpeza regular é fundamental para prevenir acne e cravos, além de deixar a pele mais saudável e radiante. <br> Não se esqueça de usar produtos adequados ao seu tipo de pele para obter os melhores resultados!</p>
+            </div>
+        </div> 
+    </section>
+
+     <!-- Vídeos -->
+    <section class="videos">
+        <h2>Vídeos Recomendados</h2>
+        <div class="video-container">
+            <div class="video-card">
+                <h3>Rotina Noturna⭐️</h3>
+                <iframe src="https://youtu.be/_eOCH5R26O4?si=BUzn-i4K-PH7C7qH" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-card">
+                <h3>Rotina matinal⭐️</h3>
+                <iframe src="https://youtu.be/NkFwg2UAat4?si=xCtq6uJuTXaJh7DQ" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Música de fundo -->
+     <center>
+        <audio autoplay loop>
+            <source src="sound/videoplayback.m4a" type="audio/mpeg">     
+        </audio>        
+     </center>
+   
+
+    <footer>
+        <p>&copy; 2024 Naturally Skincare Store</p>
+        <p>Email: naturallyskincarestore@gmail.com</p>
+        <div class="redes-sociais">
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>
